@@ -1,0 +1,112 @@
+/* arka plan rengini değiştirme */
+body {
+    background-color: #CCD1E4;
+}
+
+.text-design {
+    color: #16003B;
+    text-align: center;
+}
+
+/* liste dekorasyonunu temizleme ve yatay menubar yapımı. */
+ul {
+    text-align: center;
+    text-align: justify;
+    margin-left: 34%;
+    list-style-type: none;
+}
+
+/* a etiketi link altındaki çizgi kaldırma, yatay menubar bağlantıları arası boşluk verme.*/
+a {
+    background-color: #C2DED1;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* ul nin li lerini yanyana sıralama, renk verme vb. özellikler ekleme */
+ul li {
+
+    display: inline-block;
+    padding: 25px;
+    color: #573391;
+}
+
+/* link bağlantısının üzerine geldiğinde arkada belirecek renk kodu */
+a:hover {
+    background-color: #7858A6;
+    color: white;
+}
+
+/* Üzerine tıklandığında hangi sayfada bulunduğumuzu belirten renk */
+.aktif {
+    background-color: #16a085;
+}
+
+/* Bu da aktif selectorünün üzerine tıklandığunda hangi sayfada olduğumuzu gösteren kod. */
+/* a:hover:not(.aktif) {
+
+    background-color: #111;
+} */
+
+#index-text {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content-h2 {
+    font-family: Lucida Console;
+    color: #2A2550;
+    text-align: center;
+    top: 100px;
+    position: relative;
+    font-size: 50px;
+}
+
+#hakkimizda-text {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.anakutu {
+    width: 100%;
+    height: auto;
+    position: relative;
+
+}
+
+.kutu1 {
+    width: 320px;
+    height: 350px;
+    background-image: url("https://www.tisortsepeti.com.tr/Upload/Eat%20Sleep%20Code%20Beyaz%20Erkek%20Ti%C5%9F%C3%B6rt.jpg");
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-size: cover;
+    position: relative;
+
+}
+
+.kutu2 {
+    width: 320px;
+    height: 350px;
+    background-image: url("https://m.media-amazon.com/images/I/A13usaonutL._CLa%7C2140%2C2000%7C51nD8NFJpNL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_UX342_.png");
+    background-size: cover;
+    margin: auto;
+
+}
+
+.kutu3 {
+    width: 320px;
+    height: 350px;
+    background-image: url("https://m.media-amazon.com/images/I/A13usaonutL._CLa%7C2140%2C2000%7C51Z7V5UqHhL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_UL1500_.png");
+    background-size: cover;
+    margin: auto;
+}
+
+.kutu4 {
+    width: 320px;
+    height: 350px;
+    background-image: url("https://img.joomcdn.net/bf4d13304f8eb4ab44c909c038008f759d8cee0f_original.jpeg");
+    background-size: cover;
+    margin: auto;
+}
